@@ -1,0 +1,106 @@
+.contact-cont-mob {
+  padding: 5em 2em;
+  // background-color: rgb(231, 255, 253);
+  background-color: #f1f3f3;
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    padding: 5em 5em;
+
+  }
+}
+
+.contact_item-mob {
+  padding-bottom: 2em;
+  /* font-size: 14px; */
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.contact_item-mob textarea, .contact_item-mob input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  padding: 1.5vw;
+  width: 100%;
+}
+
+.contact_item-mob input:hover, textarea:hover {
+  border-bottom: solid 1px teal;
+}
+
+.contact_item-mob input, .contact_item-mob label {
+  display: block;
+  // background-color: rgb(231, 255, 253);
+  background-color: #f1f3f3;
+}
+
+.contact_item-mob textarea {
+  height: 10em;
+  // background-color: rgb(231, 255, 253);
+  background-color: #f1f3f3;
+}
+
+.contact-heading-mob {
+  text-align: center;
+}
+
+.contact-mob h2 {
+  margin-bottom: 3vw;
+  // font-size: 4em;
+  // text-align: center;
+}
+
+.contact-me-mob {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.contact-mob p {
+  font-size: 2em;
+  // text-align: center;
+}
+
+.contact-me-subhead-mob {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.contact_logo-mob {
+  width: 100%;
+  max-width: 30em;
+  margin-bottom: 3vh;
+  height: auto;
+}
+
+.address_info-mob {
+  font-weight: bold;
+}
+
+.address_info-mob p {
+  margin: 0.5em;
+}
+
+// --------  Contact Button
+
+.contact-btn-div-mob {
+  text-align: center;
+}
+
+.contact_submit-mob {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  padding: .5em;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(25,17,34,0.05);
+
+}
+
+.contact_submit-mob:hover {
+  background-color: white;
+  color: black;}
+
+.contact_right-mob:hover {
+  box-shadow: 0px 8px 16px 0px rgba(155, 149, 149, 0.2);
+}

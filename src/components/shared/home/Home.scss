@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+// --------- HOME Hero ---------------
+
+.hero-cont {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  // min-height: 35rem;
+  // padding: 15rem 0;
+  background: 
+  linear-gradient(
+    to right bottom,
+    white,
+    rgba(211, 211, 211, 0.80)),
+    url('https://res.cloudinary.com/dz7yojyef/image/upload/v1628180435/portfolio/background-2462430_1920_mfoglu.jpg'),
+    -webkit-linear-gradient(
+      fade-out(black, 0.1),
+      fade-out(black, 0.5)
+      );
+    ;  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  // clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+  
+  // border: 2px red solid;
+  // opacity: 60%;
+
+  .center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+    // border: 2px blue solid;
+    text-align: center;
+  }
+  
+  h1 {
+    // font-family: 'Varela Round';
+    font-family: 'Oxygen', sans-serif;
+    font-size: 8rem;
+    line-height: 9rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(
+      fade-out(black, 0.1),
+      fade-out(black, 0.5)
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      // border: 2px green solid;
+      padding-bottom: .2em;
+    }
+    .typed-hero {
+      font-size: 3rem;
+      // font-weight: bold;
+      // letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(
+      fade-out(black, 0.1),
+      fade-out(black, 0.5)
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      // border: 2px green solid;
+  }
+
+}
+
+// ------------ ABOUT ME -----------------
+
+.about-cont-wrapper {
+  padding: 3em 0em;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  // box-shadow: 0px 3px 10px rgba(25,17,34,0.05);
+
+}
+.about-title-wrapper {
+  text-align: center;
+
+}
+
+.about-title h1 {
+  font-weight: bold;
+  font-size: 4em;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: .6em;
+}
+
+.about-words-wrapper {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  // border: 2px solid red;
+  width: 50%;
+}
+
+
+.about-img-cont {
+  width: 100%;
+  height: 100%;
+  // border: 2px solid red;
+
+}
+.about-pic {
+  display: inline;
+  margin: 0 auto;
+  // margin-left: 3%;
+  height: 100%;
+  width: auto;
+  box-shadow: 0px 3px 10px rgba(25,17,34,0.05);
+
+}
+
+.img-cropper {
+  width: 25em;
+  height: 25em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  // border: 
+  margin: 0 auto;
+  margin-bottom: .6em;
+  box-shadow: 0px 3px 10px rgba(25,17,34,0.05);
+
+}
+
+.words-head {
+  text-align: center;
+  font-weight: bold;
+}
+
+.words {
+  font-size: 1.67em;
+  // padding: 1em 2em;
+  width: 90%;
+  height: 100%;
+  // border: 2px solid blue;
+  text-align: left;
+  line-height: 1.75;
+  
+
+}
+
+.words-p p {
+  width: 100%;
+  margin-bottom: 0em !important;
+  // border: 2px solid red;
+  // line-height: 1.5rem;
+
+  letter-spacing: 0.1rem;
+
+}
+
+
+// ----------- SKILLS -------------------
+
+.language-cont {
+  padding: 5em 9em;
+  // height: 100em;
+  width: 100%;
+  // background-color: rgb(231, 255, 253);
+  background-color: #f1f3f3;
+  color: black;
+  // padding-top: 3em;
+
+  // border: green 1px solid;
+}
+
+.skills-head h1 {
+  // font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+// ------- SKILL CARD MOB --------------
+
+.skills {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  // border: 2px red solid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.skill-wrapper {
+  
+  width: 20%;
+  // border: 2px blue solid;
+  text-align: center;
+  // padding: 1em;
+  margin: 2em;
+
+  .skill-icons {
+    font-size: 3em;
+    margin: .5em 0em;
+  }
+
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    // font-weight: lighter;
+  }
+}
+
+
+
+// ----------------- Projects  ---------------
+
+
+.port-cont {
+  // width: 30%;
+  // display: flex;
+  text-align: center;
+  padding: 2em 5em;
+  margin: 2em 0em;
+  // border: 1px black solid;
+
+}
+
+.proj-header h2 {
+  font-size: 4em;
+  padding: 1em;
+  color: black;
+  font-weight: bold;
+  
+}
+
+// --------- Project  ----------------
+
+.project-image {
+  width: 95%;
+  height: 30vh;
+  cursor: pointer;
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    height: 50em;
+    
+  }
+}
+
+.proj-head {
+  font-size: 1.5em;
+  margin: 1em 1em;
+  text-align: left;
+  // border: 1px green solid;
+}
+
+
+.projects {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+
+}
+
+.project-cont {
+  margin-top: 3em;
+  margin-left: 2rem;
+  padding: 2em .5em 0em .5em;
+  // height: 55em;
+  width: 43em;
+  flex-wrap: wrap;
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 
+  1rem 1rem 2rem rgba(0, 0, 0, 0.1), 
+  -1rem -1rem 2rem rgba(255, 255, 255, 0.5);
+
+  transition: 0.3s;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    flex-wrap: wrap;
+    
+  }
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+}
+
+.proj-desc-cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.proj-desc h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 40vw;
+  height: 100%;
+  padding-right: 2em;
+  letter-spacing: 0.1rem;
+  line-height: 1.5em !important;
+  // border: 1px blue solid;
+}
+
+.proj-btn-cont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  margin-bottom: 1em;
+}
+
+.proj-built-with {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  // border: 1px solid red;
+}
+
+.proj-butn {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.proj-flex-end {
+  display: flex;
+  // height: 30em;
+  flex-direction: column;
+  justify-content: space-around;
+  // border: red 1px solid;
+}
+
+// ---------- RESUME ------------
+
+.resume {
+  padding-top: 6em;
+  text-align: center;
+}

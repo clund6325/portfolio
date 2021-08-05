@@ -1,0 +1,50 @@
+.head-container {
+  margin-top: 8em;
+  height: 20em;
+  // border: 1px solid red;
+  position: relative;
+  .resume_head {
+    height: 8em;
+    background-color: gray;
+  
+  }
+      &_circle {
+        width: 19em;
+        height: 19em;
+        border-radius: 50%;
+        background-color: white;
+        // border: 1px blue solid;
+        position: absolute;
+        margin-top: 2em;
+        left: 22.5%;
+        top: -1em;
+      }
+      
+      &_pic {
+        position: absolute;
+        // top: 5em;
+        left: 25%;
+        margin-top: 2em;
+        // border: 1px solid green;
+      }
+}
+
+.resume-title-cont {
+  margin-top: 1em;
+  height: 13em;
+  // border: 1px solid green;
+
+  
+  .resume-main {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+  }
+  .resume-sub {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    // color: red;
+  }
+}

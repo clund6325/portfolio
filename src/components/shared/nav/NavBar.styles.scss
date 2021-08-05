@@ -1,0 +1,66 @@
+$primaryColor: #e7fffd;
+
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4em;
+  background-color: gray;
+
+  .nav-logo-cont {
+    width: 10em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: red 1px solid;
+    
+  }
+  
+  .logo-image {
+    width: 10em;
+  }
+  
+  .grouped-nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    // border: red 1px solid;
+    
+  }
+  
+  .nav-items-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // border: green 1px solid;
+    width: 33%;
+  }
+
+  .nav-item {
+    text-decoration: none;
+    color: black;  
+
+    &:hover {
+      color: teal;
+      text-decoration: none;
+    }
+    
+    &:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 20px;
+      content: "";
+      display: block;
+      height: .2vh;
+      position: absolute;
+      background: teal;
+      width: 0;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    }
+    &:hover:after { 
+      width: 100%; 
+      left: 0; 
+    }
+  }
+
+}

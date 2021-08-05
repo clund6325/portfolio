@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react';
 import React, { Component, useState } from 'react';
-import '../../styledComponents/ContactPage';
+import './Contact.scss';
+import { Button } from '../Button';
 
-class Contact extends Component {
+class ContactMob extends Component {
   state = ({ fullName: "", email: "", subject: "", message: "" });
 
   handleChange = e => {
@@ -76,4 +76,4 @@ render() {
   }
 }
 
-export default Contact;
+export default ContactMob;

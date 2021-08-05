@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+.social-flex-cont-mob {
+  display: flex;
+  // background-color: rgb(248, 248, 248);
+  // background-color: #f1f3f3;
+  justify-content: space-between;
+  // border: 1px red solid;
+  height: 5em;
+  
+}
+.foot-cp-mob {
+  // border: 1px green solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2rem;
+
+  h6 {
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+  
+}
+
+.social-wrapper-mob {
+  display: flex;
+  // border: 2px blue solid;
+  &.social-wrapper-mob a {
+    color: black;
+  }
+}
+
+.social-mob {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: right;
+  width: 40%;
+}
+
+.social-icon-mob {
+  font-size: 3em;
+  margin: .2em 0em;
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    font-size: 5em;
+  
+  }
+}

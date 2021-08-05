@@ -1,0 +1,16 @@
+.words-mob {
+  font-size: 1.5em;
+  padding: 1em 2em;
+  line-height: 1.75em;
+  // text-align: left !important;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    font-size: 2em;
+    padding: 1em 3em;
+    line-height: 2em;
+  }
+
+}
+
+.words-head-mob {
+  
+}
