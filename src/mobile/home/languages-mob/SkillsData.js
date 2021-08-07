@@ -1,70 +1,61 @@
-// import postgresqlIcon from '@iconify/icons-logos/postgresql';
-// import html5 from '@iconify/icons-logos/html-5';
-// import reactIcon from '@iconify/icons-logos/react';
-// import languageRubyOnRails from '@iconify/icons-mdi/language-ruby-on-rails';
-// import javascriptIcon from '@iconify/icons-logos/javascript';
-// import sassIcon from '@iconify/icons-logos/sass';
-// import { Icon } from '@iconify/react';
-// // import cSharp from '@iconify/icons-logos/c-sharp';
-// import wordpressIcon from '@iconify/icons-mdi/wordpress';
-import { FaGithub } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaSass } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { SiCsharp } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiRails } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { FaWordpress } from "react-icons/fa";
+import postgresqlIcon from '@iconify/icons-logos/postgresql';
+import html5 from '@iconify/icons-logos/html-5';
+import reactIcon from '@iconify/icons-logos/react';
+import languageRubyOnRails from '@iconify/icons-mdi/language-ruby-on-rails';
+import javascriptIcon from '@iconify/icons-logos/javascript';
+import githubIcon from '@iconify/icons-logos/github-icon';
+import sassIcon from '@iconify/icons-logos/sass';
+import cSharp from '@iconify/icons-logos/c-sharp';
+import wordpressIcon from '@iconify/icons-mdi/wordpress';
 
 const skills = [
   {
     id: 1, 
-    language: "HTML5",
-    icon: FaHtml5,
+    language: "Ruby On Rails",
+    icon: languageRubyOnRails,
   },
   {
     id: 2, 
-    language: "SASS",
-    icon: FaSass,
+    language: "JavaScript",
+    icon: javascriptIcon,
   },
+  
   {
     id: 3, 
     language: "React.js",
-    icon: FaReact,
+    icon: reactIcon,
   },
-
   {
     id: 4, 
     language: "C#",
-    icon: SiCsharp,
+    icon: cSharp,
   },
   {
     id: 5, 
     language: "Git/GitHub",
-    icon: FaGithub,
+    icon: githubIcon,
   },
+  
   {
     id: 6, 
-    language: "JavaScript",
-    icon: SiJavascript,
+    language: "HTML5",
+    icon: html5,
   },
   {
     id: 7, 
-    language: "Ruby On Rails",
-    icon: SiRails,
+    language: "SASS",
+    icon: sassIcon,
   },
-
   {
     id: 8, 
     language: "PostgreSQL",
-    icon: SiPostgresql,
+    icon: postgresqlIcon,
 
   },
   {
     id: 9, 
     language: "WordPress",
-    icon: FaWordpress,
+    icon: wordpressIcon,
 
   },
  

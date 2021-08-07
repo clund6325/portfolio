@@ -14,7 +14,7 @@ $primaryColor: #e7fffd;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: red 1px solid;
+    border: grey 1px solid;
     
   }
   
@@ -39,10 +39,10 @@ $primaryColor: #e7fffd;
 
   .nav-item {
     text-decoration: none;
-    color: black;  
+    color: grey;  
 
     &:hover {
-      color: teal;
+      color: grey;
       text-decoration: none;
     }
     
@@ -53,7 +53,7 @@ $primaryColor: #e7fffd;
       display: block;
       height: .2vh;
       position: absolute;
-      background: teal;
+      background: grey;
       width: 0;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
     }

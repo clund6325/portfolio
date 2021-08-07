@@ -39,7 +39,7 @@ const MySkillsMob = () => {
   <>
     <div className='language-cont-mob'>
       <div className=" title">
-        <HeadingMob>My Skills</HeadingMob>
+        <HeadingMob>What I'm Good At</HeadingMob>
       </div>
       <div className="skills-intro">
         <h3></h3>

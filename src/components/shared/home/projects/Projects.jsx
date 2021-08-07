@@ -23,12 +23,8 @@ const Projects = () => {
   <>
   <div className="port-cont">
     <div className="proj-header title">
-      <h2>Projects</h2>
+      <h2>What I've Worked On</h2>
     </div>
-    {/* <Carousel>
-    {projectData.map(mapProjects)}
-
-    </Carousel> */}
     <div className="projects">
       {projectData.map(mapProjects)}
     </div>

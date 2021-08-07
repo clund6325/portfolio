@@ -15,12 +15,12 @@ const Project = (props) => (
     <div className="proj-flex-end">
 
     <div className='proj-butn'>
-      <Button
+      {/* <Button
         type='button'
         buttonStyle='butn-primary-outline'
         buttonSize='butn-sm'
       ><a href={props.url} className='button-link'>Site Page</a>
-      </Button>
+      </Button> */}
       <Button
         type='button'
         buttonStyle='butn-primary-outline'

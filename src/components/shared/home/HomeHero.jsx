@@ -22,7 +22,6 @@ const Hero = () => {
                 strings={[
                   "Design",
                   "Development",
-                  "User Experience",
                   "Full-Stack Web Developer"]}
                     typeSpeed={40}
                     backSpeed={50}

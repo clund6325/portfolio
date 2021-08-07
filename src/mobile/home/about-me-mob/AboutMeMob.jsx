@@ -14,7 +14,7 @@ class AboutMeMob extends Component {
       <>
       <div className="about-wrapper-mob">
         <div >
-            <HeadingMob>About Me</HeadingMob>
+            <HeadingMob>Who I Am</HeadingMob>
         </div>
         <div className="about-me-pic">
           <AboutMePic />

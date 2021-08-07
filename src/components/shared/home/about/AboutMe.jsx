@@ -11,7 +11,7 @@ class AboutMe extends Component {
       <>
       <div className="about-title-wrapper">
         <div className="about-title title">
-            <h1>About Me</h1>
+            <h1>Who I Am</h1>
         </div>
         </div>
       <div className="about-cont-wrapper">

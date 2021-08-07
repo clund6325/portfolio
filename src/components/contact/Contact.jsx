@@ -18,7 +18,7 @@ render() {
     <div className="contact-cont" id='contact'>
       <form className='contact_form' action="https://formspree.io/f/mwkarwwl" method="POST">
         <div className="contact-heading">
-          <h2 className='contact-me title'>Contact Me</h2>
+          <h2 className='contact-me title'>How To Reach Me</h2>
           <p className="contact-me-subhead">I Can't Wait To Hear From You!</p>
         </div>
         <div className='contact_items'>

@@ -25,7 +25,7 @@ const ProjectsMob = () => {
   <>
   <div className="port-cont-mob">
     <div >
-      <HeadingMob>Projects</HeadingMob>
+      <HeadingMob>What I've Worked On</HeadingMob>
     </div>
 
     <div className="projects-mob">

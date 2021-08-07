@@ -11,12 +11,12 @@ const Project = (props) => (
     <h2>{props.name}</h2>
       <p className="proj-head-mob">{props.about}</p>
     <div className='proj-butn-mob'>
-      <Button
+      {/* <Button
         type='button'
         buttonStyle='butn-primary-outline'
         buttonSize='butn-sm'
       ><a href={props.url} className='button-link'>Site Page</a>
-      </Button>
+      </Button> */}
       <Button
         type='button'
         buttonStyle='butn-primary-outline'

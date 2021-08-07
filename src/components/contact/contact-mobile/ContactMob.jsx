@@ -41,7 +41,6 @@ render() {
             />
         </div>
         <div className='contact_item-mob'>
-        {/* <label>Email</label> */}
         <input
               type="email"
               placeholder="Email"
@@ -52,7 +51,6 @@ render() {
             />        
         </div>
         <div className='contact_item-mob'>
-        {/* <label>Subject</label> */}
         <input name='subject' 
          type="text"
          placeholder="Subject"
@@ -61,7 +59,6 @@ render() {
          onChange={this.handleChange}/>
         </div>
         <div className='contact_item-mob'>
-        {/* <label>Message</label> */}
         <textarea
               type="text"
               rows="1"

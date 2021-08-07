@@ -26,11 +26,6 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand to='/'/>
           <NavLinks style={linkAnimation}>
-            {/* <Link className='nav-links'to="/">Top</Link>
-            <Link className='nav-links' to="/about">About</Link>
-            <Link className='nav-links' to="/projects">Portfolio</Link>
-            <Link className='nav-links' to="/resume">Resume</Link>
-            <Link className='nav-links' to="/contact">Contact</Link> */}
              <HashLink className='nav-links' to="/#home" smooth>Home</HashLink>
              <HashLink className='nav-links' to="/#about" smooth>About</HashLink>
              <HashLink className='nav-links' to="/#contact" smooth>Contact</HashLink>
@@ -51,7 +46,7 @@ const NavBar = styled(animated.nav)`
   top: 0;
   left: 0;
   /* background: #e7fffd; */
-  background: #f1f3f3;
+  background: #34F5D7;
   z-index: 1;
   font-size: 1.4rem;
   
@@ -83,7 +78,7 @@ const NavLinks = styled(animated.ul)`
     cursor: pointer;
 
     &:hover {
-      color: #1BBC9B;
+      color: grey;
       border-bottom: 1px solid #1BBC9B;
       // box-shadow: 0px 0px 2px 0px rgba(214, 213, 213, 0.9);
       transition: width 0.3s ease 0s, left 0.3s ease 0s;

@@ -24,7 +24,7 @@ const MySkills = () => {
   <>
     <div className='language-cont'>
       <div className="skills-head title">
-        <h1>My Skills</h1>
+        <h1>What I'm Good At</h1>
       </div>
       <div className="skills-intro">
         <h3></h3>
