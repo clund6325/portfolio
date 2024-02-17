@@ -7,6 +7,10 @@ import githubIcon from '@iconify/icons-logos/github-icon';
 import sassIcon from '@iconify/icons-logos/sass';
 import cSharp from '@iconify/icons-logos/c-sharp';
 import wordpressIcon from '@iconify/icons-mdi/wordpress';
+import css3Icon from '@iconify/icons-logos/css-3';
+import sqlIcon from '@iconify/icons-logos/sql';
+import angularIcon from '@iconify/icons-logos/angular-icon';
+import { css } from 'styled-components';
 
 const skills = [
   {
@@ -58,6 +62,21 @@ const skills = [
     icon: wordpressIcon,
 
   },
+  {
+    id: 10, 
+    language: "CSS3",
+    icon: css3Icon,
+  },
+  {
+    id: 11, 
+    language: "SQL",
+    icon: sqlIcon,
+  },
+  {
+    id: 12, 
+    language: "AngularJS",
+    icon: angularIcon,
+  }
  
 ];
 

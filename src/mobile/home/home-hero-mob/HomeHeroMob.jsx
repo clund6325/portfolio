@@ -21,7 +21,7 @@ const Hero = () => {
                 strings={[
                     "Design",
                     "Development",
-                    "Full-Stack Web Developer"]}
+                    "Full-Stack Software Engineer",]}
                     typeSpeed={40}
                     backSpeed={50}
                     // loop
