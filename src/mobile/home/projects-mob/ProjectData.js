@@ -9,10 +9,10 @@ import cSharp from '@iconify/icons-logos/c-sharp';
 import wordpressIcon from '@iconify/icons-mdi/wordpress';
 
 
-
-
-
 const projectData = [
+  <div>
+    <TicTacToe />
+  </div>,
   {
     id: 1,
     name: 'Lab Notes',
