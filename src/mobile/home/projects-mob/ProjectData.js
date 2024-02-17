@@ -7,7 +7,6 @@ import githubIcon from '@iconify/icons-logos/github-icon';
 import sassIcon from '@iconify/icons-logos/sass';
 import cSharp from '@iconify/icons-logos/c-sharp';
 import wordpressIcon from '@iconify/icons-mdi/wordpress';
-import TicTacToe from './TicTacToe';
 
 
 const projectData = [
