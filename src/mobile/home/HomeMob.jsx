@@ -23,9 +23,9 @@ const HomeMob = () => {
       <div id="skills">
         <MySkillsMob />
       </div>
-      <div id="projects">
+      {/* <div id="projects">
         <ProjectsMob />
-      </div>
+      </div> */}
       <div id="contact">
        <ContactMob />
       </div>
